@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var router = require('./router.js');
+// var router = require('./router.js');
 var https = require('https');
 
 var commonHeader = {'Content-Type': 'text/plain'};
