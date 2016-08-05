@@ -4,8 +4,7 @@
   "description": "An API wrapper to retrieve course information from the University of Toronto",
   "main": "app.js",
   "scripts": {
-	"start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node app.js"
   },
   "author": "Jesse Cordeiro",
   "license": "ISC",
