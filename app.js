@@ -1,14 +1,12 @@
 var express = require('express');
 var app = express();
-// var router = require('./router.js');
 var https = require('https');
 
 var commonHeader = {'Content-Type': 'text/plain'};
 var array = ['org', 'code', 'section', 'studyyear', 'daytime', 'weekday', 'prof', 'breadth', 'online', 'waitlist', 'available', 'title']
-var data = "";
 
 var validate = function(request, response){
-  for (obj in array){
+  for (var obj in array){
     var index = array[obj];
     if (request.query[index] === undefined){
       request.query[index] = "";
@@ -33,8 +31,6 @@ app.get("/courses", function (request, response){
   validate(request, response, function(val){
     response.end(val);
   });
-
-  // router.home(request, response);
 })
 app.listen(process.env.PORT || 3000);
 console.log('Server running at http://127.0.0.1:3000/');
