@@ -9,7 +9,6 @@
   "author": "Jesse Cordeiro",
   "license": "ISC",
   "dependencies": {
-    "express": "3.x"
   },
   "keywords": [
     "uoft",
