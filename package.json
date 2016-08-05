@@ -1,17 +1,29 @@
 {
   "name": "uoft-api",
   "version": "1.0.0",
-  "description": "An API to retrieve information from the University of Toronto",
+  "description": "An API wrapper to retrieve course information from the University of Toronto",
   "main": "app.js",
   "scripts": {
 	"start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jesse Cordeiro",
   "license": "ISC",
   "dependencies": {
     "express": "3.x"
   },
+  "keywords": [
+    "uoft",
+    "api",
+	"api-wrapper",
+	"wrapper",
+    "uoft-course-api",
+	"express",
+    "course-api",
+    "courses",
+    "university of toronto",
+    "toronto"
+  ],
   "engines": {
     "node": "6.3.1"
   }
