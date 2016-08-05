@@ -1,5 +1,5 @@
 {
-  "name": "uoft-api",
+  "name": "uoft-course-api",
   "version": "1.0.0",
   "description": "An API wrapper to retrieve course information from the University of Toronto",
   "main": "app.js",
